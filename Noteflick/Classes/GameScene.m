@@ -24,7 +24,7 @@ int SL[10]={0},Intersection[20][2]={0};
 #define GoodLimit 10
 #define PerfectLimit 6
 
-@interface MyDrawNode : CCDrawNode
+@interface MyDrawNode:CCDrawNode
 @property (readwrite) int i,v,slider_no;
 @end
 
